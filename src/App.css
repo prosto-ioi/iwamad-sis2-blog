@@ -23,6 +23,13 @@ a { color: var(--color-primary); }
 .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); list-style: none; margin: 0; padding: 0; }
 .post-actions { display: flex; align-items: center; gap: var(--space-2); }
 .post-actions .btn { text-decoration: none; }
+.not-found { text-align: center; }
+.not-found__code {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-error);
+}
 
 @media (min-width: 640px) {
   .site-header { flex-direction: row; justify-content: space-between; }
